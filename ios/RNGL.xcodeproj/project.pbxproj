@@ -62,6 +62,7 @@
 		34C990451C34941C002F49FC /* CaptureConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptureConfig.h; sourceTree = "<group>"; };
 		34C990461C349422002F49FC /* CaptureConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = CaptureConfig.m; sourceTree = "<group>"; tabWidth = 2; };
 		4107012F1ACB723B00C6AA39 /* libRNGL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNGL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30129E51FBD9C2100FAE677 /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 				346089CE1BEFD0A500C90DB5 /* RNGLContext.h */,
 				346089CF1BEFD0A500C90DB5 /* RNGLContext.m */,
 				410701301ACB723B00C6AA39 /* Products */,
+				C30129E31FBD9C2100FAE677 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +116,14 @@
 				4107012F1ACB723B00C6AA39 /* libRNGL.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C30129E31FBD9C2100FAE677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C30129E51FBD9C2100FAE677 /* libReact.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
